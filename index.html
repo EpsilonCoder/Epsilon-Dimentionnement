@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="website description" />
+		<meta name="keywords" content="website keywords, website keywords" />
+		<meta name="author" content="Paul Tcha'a, webmaster en herbe.." />
+		<title>Dimensionnement</title>
+		<link rel="stylesheet" href="css/app.css" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		
+	</head>
+	<body>
+		<div id="wrapper">
+					<form id="entree">
+					<h2>DIMENSIONNEMENT DES CHARGES EN COURANT ALTERNATIF</h2>
+						<label for="charge">Veuillez indiquer le nombre de charges &agrave; analyser:</label>
+						<input type="number" min="0" max="50" value="0" id="charge" />
+						<input type="submit" value="valider" />
+						<input type="button" value="Annuler" id="annuler"/>
+					</form>
+					
+					<div id="designation">
+						<h3>D&eacute;signation</h3>
+					</div>
+					
+					<div id="qte">
+						<h3>Quantit&eacute;</h3>
+					</div>
+					
+					<div id="puissanceU">
+						<h3>Puissance Unitaire(Watts)</h3>
+					</div>
+					
+					<div id="tempsFonction">
+						<h3>Temps de Fonct.(heure)</h3>
+					</div>
+					
+					<div id="puissanceT">
+						<input type="button" value="Puissance totale" id="puissance_totale" />
+					</div>
+					
+					<div id="energie">
+						<input type="button" value="Energie" id="valeur_energie" />
+					</div>
+			
+					<div id="sortie">
+						<span id="totalEnergie">Energie totale des charges alternatives</span>
+						<p id="message"></p>
+						<input type="button" value="Total charge alternative" id="chargeTotale" />
+						<input type="text" id="alternative" disabled value="0"	/>
+					</div>
+		</div>	
+		<script src="js/app.js"></script>
+	</body>	
+</html>

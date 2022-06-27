@@ -1,0 +1,104 @@
+
+#wrapper{
+	margin: auto;
+	width:1025px;
+	background:lightgray;
+	box-shadow:0px 0px 15px gray;
+	border:3px solid gray;
+	border-radius:5px;
+}
+body{
+	background: url('../img/pattern.png') repeat;
+	font: bold 102% 'News Cycle';
+}
+
+h2{
+	color:#C20664;	
+	font: bold 150% Helvetica sans-serif;
+	margin-bottom: 50px; 
+	margin-top:20px;
+	border:2px solid #C20664;
+	margin-left:10px;
+	}
+
+#entree{
+	height:200px;
+	text-align: center;
+	margin-right:10px;
+	margin-left:1px;
+	padding-top:50px;
+}
+
+#designation, #qte, #puissanceU, #tempsFonction, #puissanceT, #energie
+{
+	display: inline-block;
+	width: 150px;
+	padding: 2px 2px;
+	margin-left:2px;
+	text-align:center;
+}
+
+#designation{	margin-left: 30px;	 }
+
+#sortie{
+	height:180px;
+	border-top:2px solid gray;
+	margin:auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+input[type="submit"], input[type="button"]{
+	font:oblique 105% arial; 
+	border: 1px solid #FFF; 
+	padding: 2px 8px 3px 8px ;
+	cursor: pointer; 
+	background: #C20664;
+	background: -moz-linear-gradient(#D62077, #B40152);
+	background: -o-linear-gradient(#D62077, #B40152);
+	background: -webkit-linear-gradient(#D62077, #B40152);
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	color: #FFF;
+	text-shadow: 1px 1px #000;
+	width:140px;
+}
+
+#chargeTotale{	width:200px; }
+
+input[type="text"], input[type="number"]
+{
+	width:90px;
+	height:22px;
+	text-align: center;
+	vertical-align:middle;
+}
+
+#totalEnergie{ 
+	font:bold 150% 'News Cycle';
+	display:block;
+	margin-bottom:15px;
+	margin-top:15px;
+	}
+
+#message{
+	font:oblique 115% 'News Cycle';
+	margin-bottom:15px;
+}
+	
+#annuler{
+	margin-left:225px;
+	vertical-align:right;
+	}
+	
+  .incorrect
+  {
+	border-color: rgba(191, 68, 68, 0.75);
+	-moz-box-shadow:0 0 8px rgba(191, 68, 68, 0.75);
+	-webkit-box-shadow:0 0 8px rgba(191, 68, 68, 0.75);
+	box-shadow:0 0 8px rgba(191, 68, 68, 0.75);
+  }
